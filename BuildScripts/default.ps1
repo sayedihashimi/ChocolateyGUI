@@ -323,6 +323,7 @@ Task -Name __UpdateReSharperCommandLineTools -Description $private -Action {
 	}
 }
 
+
 Task -Name __InstallPSBuild -Description $private -Action {
 	try {
 		Write-Output "Running Install PSBuild..."
